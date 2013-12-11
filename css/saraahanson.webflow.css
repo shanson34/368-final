@@ -52,7 +52,8 @@ p {
   
 a:hover {
 	background-image: url(../images/background/cream_dust.png);
-	box-shadow: inset 0 0 7px 5px #ddd;
+	transition-property: box-shadow;
+	transition-duration: 1s;
 }
 
 .w-row { 
@@ -96,3 +97,6 @@ body {
 .li6 {
   background-image: url(../images/Screen%20Shot%202013-10-06%20at%204.41.01%20PM.png);
 }
+
+.button:hover {
+	box-shadow: inset 0 0 7px 5px #ddd;
